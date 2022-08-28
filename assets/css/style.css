@@ -1,0 +1,51 @@
+:root{
+    --color1:#eee;
+    --color2:#212529;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1,
+h2 {
+    background-color: var(--color1)
+
+}
+h3{
+    text-transform: uppercase;
+}
+
+h4{
+    text-transform: uppercase;
+}
+hr{
+    margin-top: 0;
+}
+.FotoPerfil {
+    height: 200px;
+    width: 200px;
+    background-image: url(../imgs/el-bicho.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondoFotoPerfil{
+    background-color: var(--color1);
+    height: 250px;
+}
+.fondoAside{
+    background-color: var(--color1);
+    height: 250px;
+}
+
+#sec{
+    background-color: var(--color1);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color2);
+    
+}
