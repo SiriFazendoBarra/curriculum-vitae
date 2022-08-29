@@ -1,6 +1,9 @@
 :root{
     --color1:#eee;
     --color2:#212529;
+    --color3:rgb(207, 207, 207);
+    --color4:white;
+    
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -30,6 +33,12 @@ hr{
     background-size: cover;
     background-position: center;
 }
+.fondo1{
+    background-image: url(../imgs/bg1.jpg);
+}
+.fondo2{
+    background-color:var(--color4);
+}
 
 .fondoFotoPerfil{
     background-color: var(--color1);
@@ -37,7 +46,7 @@ hr{
 }
 .fondoAside{
     background-color: var(--color1);
-    height: 250px;
+    
 }
 
 #sec{
